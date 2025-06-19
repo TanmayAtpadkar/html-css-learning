@@ -1,0 +1,15 @@
+<p> 
+  paragraph of text
+</p>
+
+<button class="back-button">
+  Back
+</button>
+
+<a href="https://www.youtube.com/"target="blank">1</a>
+<a href="https://www.amazon.in/"target="blank">2</a>
+<a href="https://www.flipkart.com/"target="blank">3</a>
+
+<button class="next-button">
+  Next
+</button>
