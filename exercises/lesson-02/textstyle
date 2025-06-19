@@ -1,0 +1,61 @@
+<style>
+  p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .career{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    width: 280px;
+  }
+  .views{
+    font-family: arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+  }
+  .info{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+    margin-bottom: 20px;
+    width: 280px;
+  }
+
+  .nice{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding: 15px;
+  }
+
+  .shop-link{
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .shop-link:hover{
+    text-decoration: underline;
+  }
+</style>
+
+<p class="career">
+  My name is Tanmay, I am on a job hunt
+</p>
+<p class="views">
+  3.4M views &#183; 6 months ago
+</p>
+
+<p class="info">
+  Talking tech and AI on the heels of Google 
+  I/O. Also a daily driver phone reveal from 
+  Google's CEO. Shoutout out to Sundar!
+</p>
+
+<p class="nice">
+  Shop early for the best selection of holiday favourites.
+  <span class="shop-link"> Shop now &#62;</span>
+</p>
