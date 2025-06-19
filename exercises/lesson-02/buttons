@@ -1,0 +1,111 @@
+<style>
+  .SUBSCRIBE-button{
+    background-color:rgb(198, 41, 41);
+    color: white;
+    border: none;
+    height: 36px ;
+    width: 105px;
+    border-radius:2px ;
+    cursor: hand;
+    margin-right: 4px;
+    transition: opacity 0.15s;
+  }
+
+  .SUBSCRIBE-button:hover{
+    opacity:0.7;
+  }
+  .SUBSCRIBE-button:active{
+    opacity: 0.55;
+  }
+
+  .join-button{
+    background-color:white;
+    border-color: rgb(6,  95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color:rgb(6, 95, 212);
+    cursor: hand;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 10px;
+  }
+
+  .join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+  .tweet-button{
+    background-color: #1da1f2;
+    color:white;
+    border: none;
+    border-radius:25px ;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left:4px;
+    transition: box-shadow 0.15s;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .tweet-button:hover{
+    opacity:0.75;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+    .tweet-button:active{
+    opacity:0.25;
+  }
+</style>
+
+<button class="SUBSCRIBE-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN button to learn html css
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
+
+
+
+<!-- <a href="https://www.amazon.in/"target"blank">
+  Back to Amazon
+</a>
+
+<h1>Nike Black Running Shoes</h1>
+
+<p class="stock">$39 - in stock.</p>
+
+
+<style>
+  .stock{
+    color: rgb(0, 118, 0);
+  }
+  .amazon-button{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius:10px;
+    height: 30px;
+    width: 100px;
+    font-size: x-small;
+    margin-right: 6px; 
+  }
+  .amazon-button2{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius:10px;
+    height: 30px;
+    width: 100px;
+    font-size: x-small;
+    margin-right: 6px; 
+  }
+</style>
+<button class="amazon-button">
+  Add to Cart
+</button>
+
+<button class="amazon-button2">
+  Buy now
+</button> -->
