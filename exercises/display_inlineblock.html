@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Block and Inline-Block</title>
+    <style>
+      .google{
+        display:block;
+        margin:auto;
+      }
+      .search-bar{
+      display:block;
+      margin:auto;
+      width:400px;
+      font-size:15px;
+      border-radius:8px;
+      border:none;
+      padding-left:9px;
+      padding-top:6px;
+      padding-bottom:6px;
+      box-shadow:5px 5px 10px rgba(0,0,0,0.25) 
+    }
+    .info{
+      margin-top:20px;
+      display:inline-block;
+      width:300px;
+      vertical-align:middle;
+    }
+    .yes,.no{
+      vertical-align:middle;
+    }
+    </style>
+  </head>
+  <body>
+    <img class="google" src="exercisecss/google.jpg">
+    <input class="search-bar" placeholder="Search Google or type a URL">
+    <p class="info">
+      Thanks for chatting with our customer support.
+      Would you like to take our syrvey?
+    </p>
+    <button class="yes">
+      Yes
+    </button>
+    <button class="no">
+      No
+    </button>
+  </body>
+</html>
