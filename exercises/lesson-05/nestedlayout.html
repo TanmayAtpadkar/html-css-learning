@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested-Layout Technique</title>
+
+    <style>
+      .character-profile{
+        width:800px;
+      }
+      .profile-pic{
+        display:inline-block;
+        vertical-align:middle;
+      }
+      .action{
+          display:inline-block;
+      }
+      .b1{
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-left:100px;
+            vertical-align:middle;
+          }
+      .profile-info{
+        display:inline-block;
+        margin-left:10px;
+        vertical-align:middle;
+      }
+      .pfp{
+        width:100px;
+        border-radius:50px;
+      }
+      .name{
+        font-weight:bold;
+      }
+      .category,.known{
+        color:rgb(96, 96, 96);
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="character-profile">
+      <div class="profile-pic">
+        <img class="pfp" src="../channel-pictures/channel-1.jpeg">
+      </div>
+      <div class="profile-info">
+        <p class="name">
+          Luffy
+        </p>
+        <p class="category">
+          The main Hero
+        </p>
+        <p class="known">
+          Popular
+        </p>
+        </div>
+        <div class="action">
+          <button class="b1">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      
+    </div>
+  </body>
+</html>
